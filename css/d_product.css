@@ -1,0 +1,94 @@
+.product {
+  margin-bottom:30px;
+}
+.product .product-img{
+  position:relative;
+  
+}
+.product .product-img .fotorama {
+  border:1px solid #ededed;
+}
+.product .product-info h2 {
+    font-size: 28px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.product .product-info h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px 0px 5px;
+}
+.product .product-info .rate-block {
+  width:100%;
+  margin-bottom:10px;
+}
+.product .product-info .rate-block div{
+  float:left;
+  margin-right:10px;
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+
+.product .product-info .product-desc {
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+.product .product-info .item-price {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    height:50px;
+}
+.product .product-info .item-count {
+  text-align:left;
+  font-size:25px;
+  height:50px;
+  padding-top:15px;
+}
+.product .product-info .qty {
+    width: 40px;
+    text-align: center;
+    border:0px;
+    float:left;
+}
+.product .product-info input.qtyplus,.product .product-info input.qtyminus  { 
+  width:20px; 
+  height:20px;
+  border-radius:20px;
+  border:0px;
+  font-size:13px;
+  padding:0px;
+  float:left;
+  margin-top:9px;
+}
+.product .product-info .item-order {
+  text-align:center;
+  margin-top:15px;
+  height:50px;
+    padding-top:5px;
+}
+.product .product-info .item-order .btn{
+  font-size:12px;
+  margin:0 auto;
+  width:90%;
+}
+.product .product-info a{
+  text-decoration:underline;
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+.product .product-info .soc {
+  margin-top: 10px;
+  color: #2e2e30;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Montserrat', helvetica, tahoma, arial;
+}
+.product .product-info .soc .soc-panel {
+  margin-top:10px;
+}
+.product .product-info .soc .soc-panel a{
+  display:block;
+  float:left;
+  margin-right:25px;
+}

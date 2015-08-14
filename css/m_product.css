@@ -1,0 +1,115 @@
+.product {
+  margin-bottom:30px;
+}
+.product .product-img{
+  position:relative;
+  
+}
+.product .product-info {
+  margin-bottom:70px;
+}
+.product .product-info h2 {
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    line-height: 20px;
+    height: 40px;
+    margin:0px;
+}
+.product .product-info h3 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+.product .product-info .rate-block {
+  width:100%;
+  margin-bottom:10px;
+}
+.product .product-info .rate-block div{
+  float:left;
+  margin-right:10px;
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+
+.product .product-info .product-desc,.product .product-info .product-desc-short {
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+.product .product-info .product-desc-short {
+  margin: 10px 20px;
+   font-size:12px;
+}
+.product .product-info .product-desc-short button {
+  margin:0 auto;
+  width:60%;
+}
+.product .product-info .item-price {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    height:30px;
+    width:50%;
+    float:left;
+}
+.product .product-info .item-count {
+  text-align:center;
+  font-size:20px;
+  height:30px;
+  float:right;
+  width:40%;
+}
+.product .product-info .qty {
+    width: 40px;
+    text-align: center;
+    border:0px;
+    float:left;
+}
+.product .product-info input.qtyplus,.product .product-info input.qtyminus  { 
+  width:15px; 
+  height:15px;
+  border-radius:20px;
+  border:0px;
+  font-size:10px;
+  padding:0px;
+  float:left;
+  margin-top:9px;
+}
+.product .product-info .item-order {
+  text-align:center;
+  margin-top:15px;
+  height:50px;
+    padding-top:5px;
+}
+.product .product-info .item-order .btn{
+  font-size:12px;
+  margin:0 auto;
+  width:60%;
+}
+.product .product-info a{
+  text-decoration:underline;
+  font-size:14px;
+  font-family: 'PTSerif', helvetica, tahoma, arial;
+}
+.product .product-info  .delivery {
+  text-align:center;
+}
+.product .product-info .soc {
+  margin-top: 10px;
+  color: #2e2e30;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Montserrat', helvetica, tahoma, arial;
+}
+.product .product-info .soc .soc-panel {
+  margin-top:10px;
+}
+.product .product-info .soc .soc-panel a{
+  display:block;
+  float:left;
+  margin-right:25px;
+}

@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/draft.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--
+    <link rel="stylesheet" href="css/bootstrap.css"  media="screen and (min-width: 992px)" >
+    <link rel="stylesheet" href="css/bootstrap-theme.css"  media="screen and (min-width: 992px)" >
+    <link rel="stylesheet" href="css/style.css"  media="screen and (min-width: 992px)" >
+
+    <link rel="stylesheet" href="css/style-mobile.css"  media="screen and (max-width: 991px)">-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/counter-item.js"></script>
+    <!--<link rel="stylesheet" href="css/campaign.css" >-->
+    <!-- price slider-->
+    <!-- <link rel="stylesheet" href="css/jslider.css" type="text/css">
+    <link rel="stylesheet" href="css/jslider.round.css" type="text/css">
+    -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!--
+      <script type="text/javascript" src="js/jshashtable-2.1_src.js"></script>
+        <script type="text/javascript" src="js/jquery.numberformatter-1.2.3.js"></script>
+
+    <script type="text/javascript" src="js/tmpl.js"></script>
+    <script type="text/javascript" src="js/jquery.dependClass-0.1.js"></script>
+    <script type="text/javascript" src="js/draggable-0.1.js"></script>-->
+    <!--<script type="text/javascript" src="js/jquery.slider.js"></script>-->
+    <!-- end price slider-->
+    <!--  prod slider -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <!-- end  prod slider-->
+
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/resolution.js"></script>
+    <script type="text/javascript" src="js/popbox.js"></script>
+    <script type="text/javascript" src="js/mobile-detect.min.js"></script>
+
+    <style>
+
+
+    </style>
+</head>
+<body>
+<header class="" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 half float-left"><a href="/" id="logo"><img src="images/logo.jpg" title="logo"/></a>
+
+                <div class="clean"></div>
+            </div>
+            <div class="col-md-3 float-left  hide-mob">
+                <div class="reg-panel">
+                    <ul>
+                        <li><a href="">REGISTER</a></li>
+                        <li><a data-toggle="modal" data-target="#sing-in">SIGN IN</a></li>
+                    </ul>
+                </div>
+                <div class="clean"></div>
+            </div>
+            <div class="col-md-3 third float-right">
+                <div class="navbar-panel float-right">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                                aria-haspopup="true" aria-expanded="false"><img
+                                src="images/nav.png"/></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">menu 1</a></li>
+                                <li><a href="#">menu 2</a></li>
+                                <li><a href="#">menu 3</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Log out</a></li>
+                            </ul>
+                            <div class="clean"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="fullpage">
+
+    <div class="content row">
+        <div class="profileinfo col-xs-12 col-sm-2 col-sm-push-0 col-sm-offset-1">
+            <img src="images/ProfilePhoto.gif" width="190" height="190" class="centred img-circle "/>
+
+            <div><b class="customer">Annie Mac</b></div>
+            <div class="info">
+                <b>Email:</b><br>
+                <span>annie_mac@mail.com</span><br>
+                <br>
+                <b>Shipping Adress:</b><br>
+                <span>2346 N Hancock St</span><br>
+                <span>Philadelphia, PA</span><br>
+                <span>USA, 19152</span><br>
+                <span>1 (213)453-9845</span><br>
+                <br>
+                <a class="editprofile underline" href="#">Edit Profile</a>
+            </div>
+        </div>
+
+        <div class="section" id="section1">
+            <div id="content" class="content-campaigns">
+                <div class="block-title-home">CAMPAIGNS</div>
+                <div class="user-activity col-xs-12 col-sm-9 col-sm-offset-0">
+                    <div class="campaigns-filter">
+                        <button class="btn btn-success" value="ACTIVE">ACTIVE</button>
+                        <button class="btn btn-primary" value="COMPLETED">COMPLETED</button>
+                    </div>
+                    <div class="no_active">No active campaigns</div>
+                    <div class="item-order hide-mob">
+                        <button class="btn btn-success"><img src="images/cart-w.png" width="15" height="14"> SHOP NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div id="content" class="content-prod">
+                <div class="block-title-home">PRODUCTS</div>
+                <div class="user-activity col-xs-12 col-sm-9 col-sm-offset-0">
+                    <div class="campaigns-filter">
+                        <button class="btn btn-success" value="ACTIVE">ORDERED</button>
+                        <button class="btn btn-primary" value="COMPLETED">IN PRODUCTION</button>
+                        <button class="btn btn-primary" value="COMPLETED">SENT</button>
+                    </div>
+                    <div class="no_active">No active campaigns</div>
+                    <button class="btn btn-success"><img src="images/cart-w.png" width="15" height="14"> SHOP NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="section " id="section3" style="display: none;">
+    <footer id="footer" position="top: 610px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hide-mob">
+                    <div class="soc-panel"><a href=""><img src="images/ico-face-b.png"></a> <a href=""><img
+                            src="images/ico-google-b.png"></a> <a href=""><img src="images/ico-twe-b.png"></a>
+
+                        <div class="clean"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="logo hide-mob"><a href="/"><img src="images/logo-text.png"/></a></div>
+                    <div class="bot-menu">
+                        <ul>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">HELP</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">CONTACTS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 hide-mob">
+                    <div class="pay-panel"><a href=""><img src="images/ico-paypal.png"></a> <a href=""><img
+                            src="images/ico-visa.png"></a> <a href=""><img src="images/ico-master.png"></a>
+
+                        <div class="clean"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bot-info hide-mob">
+                <div class="col-md-2 col-md-offset-2"><img src="images/ico-marker-w.png">
+
+                    <div class="title">FIND US</div>
+                    1234 Lincoln st.,<br>
+                    Chicago, IL
+                </div>
+                <div class="col-md-4"><img src="images/ico-call-w.png">
+
+                    <div class="title">CALL</div>
+                    +1-234-555-5555 <br>
+                    +1-987-666-6666
+                </div>
+                <div class="col-md-2"><img src="images/ico-mail-w.png">
+
+                    <div class="title">MAIL</div>
+                    info@jointle.com
+                </div>
+            </div>
+            <div class="copy"> © 2015. Jointle.com. All rihts reserved.</div>
+        </div>
+    </footer>
+</div>
+-->
+
+<div class="modal hide-mob fade" id="sing-in" tabindex="-1" role="dialog" aria-labelledby="sing-inLabel">
+    <div class="modal-dialog modal-middle" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <div class="sing-form">
+                    <div class="block-title-home">SIGN IN</div>
+                    <form>
+                        <div class="filds">
+                            <label for="login"><span class="glyphicon glyphicon-user"></span> Username</label>
+                            <input type="text" name="login" id="login" class="label-over"/>
+                        </div>
+                        <div class="filds">
+                            <label for="password"><span class="glyphicon glyphicon-lock"></span> Password</label>
+                            <input type="password" name="password" id="password" class="label-over"/>
+                        </div>
+                        <button type="submit" class="btn btn-success">REGISTER</button>
+                    </form>
+                    <div class="row text">
+                        <div class="col-md-6 text-left"><a href="">Forgot password?</a></div>
+                        <div class="col-md-6 text-right">No account? <a href="">Register</a></div>
+                    </div>
+                    <div class="reg-social">
+                        <a href="#" class="btn btn-primary">SIGN UP VIA FACEBOOK</a><br>
+                        <a href="#" class="btn btn-danger">SIGN UP VIA GOOGLE+</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

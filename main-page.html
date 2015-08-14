@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/normalize.css">
+<!--
+<link rel="stylesheet" href="css/bootstrap.css"  media="screen and (min-width: 992px)" >
+<link rel="stylesheet" href="css/bootstrap-theme.min.css"  media="screen and (min-width: 992px)" >
+-->
+<link rel="stylesheet" href="css/jslider.css" type="text/css">
+<link rel="stylesheet" href="css/jslider.round.css" type="text/css">
+
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+<!--
+<link rel="stylesheet" href="css/style.css"  media="screen and (min-width: 992px)" >
+<link rel="stylesheet" href="css/style-mobile.css"  media="screen and (max-width: 991px)">
+-->
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/counter-item.js"></script>
+<!-- price slider-->
+
+
+<!--
+  <script type="text/javascript" src="js/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="js/jquery.numberformatter-1.2.3.js"></script>
+  -->
+<script type="text/javascript" src="js/tmpl.js"></script>
+<script type="text/javascript" src="js/jquery.dependClass-0.1.js"></script>
+<script type="text/javascript" src="js/draggable-0.1.js"></script>
+<script type="text/javascript" src="js/jquery.slider.js"></script>
+<!-- end price slider-->
+<!--  prod slider -->
+
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<!-- end  prod slider-->
+
+<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/resolution.js"></script>
+<script type="text/javascript" src="js/popbox.js"></script>
+<script type="text/javascript" src="js/mobile-detect.min.js"></script>
+</head>
+<body>
+
+<header class="" id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 half float-left"> <a  href="/"  id="logo"><img src="images/logo.jpg" title="logo" /></a>
+        <div class="clean"></div>
+      </div>
+      <div class="col-md-3  hide-mob">
+        <div class="reg-panel">
+          <ul>
+            <li><a href="">REGISTER</a></li>
+            <li><a  data-toggle="modal" data-target="#sing-in">SIGN IN</a></li>
+          </ul>
+        </div>
+        <div class="clean"></div>
+      </div>
+      <div class="col-md-3 third float-right">
+        <div class="navbar-panel float-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/nav.png" /></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">menu 1</a></li>
+                <li><a href="#">menu 2</a></li>
+                <li><a href="#">menu 3</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+              <div class="clean"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="cart-panel float-right popbox">
+          <button class="btn btn-default open"><img src="images/cart.png" /><span class="hide-mob"> CART</span></button>
+          <div class="collapse">
+            <div class="box">
+              <div class="arrow"></div>
+              <div class="arrow-border"></div>
+              <div class="cart-list">
+                <div class="item">
+                  <div class="item-img"> <img src="images/item1.jpg"> </div>
+                  <div class="item-title">Handmade Item with Incredibly Long Title</div>
+                  <div class="item-count">x 1</div>
+                  <div class="item-price"> $14 </div>
+                  <div class="clean"></div>
+                </div>
+                <div class="item">
+                  <div class="item-img"> <img src="images/item2.jpg"> </div>
+                  <div class="item-title">Handmade Item </div>
+                  <div class="item-count">x 1</div>
+                  <div class="item-price"> $14 </div>
+                  <div class="clean"></div>
+                </div>
+                <div class="item">
+                  <div class="item-img"> <img src="images/item3.jpg"> </div>
+                  <div class="item-title">Handmade Item </div>
+                  <div class="item-count">x 1</div>
+                  <div class="item-price"> $14 </div>
+                  <div class="clean"></div>
+                </div>
+              </div>
+              <div class="sum-block"> total : <span id="sum-total">$ 70</span> <br>
+                <button class="btn btn-default show-cart"><span class="">SHOW CART</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clean"></div>
+    </div>
+  </div>
+  </div>
+</header>
+<div id="fullpage">
+  <div class="section " id="section0">
+    <div id="slider">
+      <div id="home-slider" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="item-bg" style="background-image:url(images/slide-1.jpg)">
+            <div class="slide-title"> REAL THINGS MADE<br>
+              BY REAL PEOPLE </div>
+            <div class="slide-line"></div>
+            <div class="slide-desc"> Know “who, what, why, where and how” <br>
+              behind the products you buy </div>
+          </div>
+        </div>
+        <div class="item">
+          <h1>2</h1>
+        </div>
+        <div class="item">
+          <h1>3</h1>
+        </div>
+        <div class="item">
+          <h1>4</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section1">
+    <div id="content" class="content-company">
+      <div class="block-title-home">CAMPAIGNS</div>
+      <div class="container">
+        <div class="row company-list" >
+          <div class="col-md-6 item">
+            <div class="image-round-all producer-img" style="background-image:url(images/about.jpg)">
+              <div class="company-title">Handmade Soap Handmade Soap Handmade Soap</div>
+              <div class="company-line"></div>
+              <div class="company-from">FROM $29</div>
+              <div class="company-shop"> <a href="" class="btn btn-default">SHOP NOW</a> </div>
+              <div class="progress-block">
+                <div class="company-time">15 days to go</div>
+                <div class="progress progress-small">
+                  <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> <span class="sr-only"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 item">
+            <div class="image-round-all producer-img" style="background-image:url(images/about.jpg)">
+              <div class="company-title">Handmade Soap Handmade Soap Handmade Soap</div>
+              <div class="company-line"></div>
+              <div class="company-from">FROM $29</div>
+              <div class="company-shop"> <a href="" class="btn btn-default">SHOP NOW</a> </div>
+              <div class="progress-block">
+                <div class="company-time">15 days to go</div>
+                <div class="progress progress-small">
+                  <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> <span class="sr-only"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 item">
+            <div class="image-round-all producer-img" style="background-image:url(images/about.jpg)">
+              <div class="company-title">Handmade Soap Handmade Soap Handmade Soap</div>
+              <div class="company-line"></div>
+              <div class="company-from">FROM $29</div>
+              <div class="company-shop"> <a href="" class="btn btn-default">SHOP NOW</a> </div>
+              <div class="progress-block">
+                <div class="company-time">15 days to go</div>
+                <div class="progress progress-small">
+                  <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> <span class="sr-only"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 item">
+            <div class="image-round-all producer-img" style="background-image:url(images/about.jpg)">
+              <div class="company-title">Handmade Soap Handmade Soap Handmade Soap</div>
+              <div class="company-line"></div>
+              <div class="company-from">FROM $29</div>
+              <div class="company-shop"> <a href="" class="btn btn-default">SHOP NOW</a> </div>
+              <div class="progress-block">
+                <div class="company-time">15 days to go</div>
+                <div class="progress progress-small">
+                  <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"> <span class="sr-only"></span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-item"> <a href="" class="btn btn-success">SEE ALL CAMPAIGNS</a> </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section2">
+    <div id="content" class="content-prod">
+      <div class="block-title-home">WHAT’S POPULAR</div>
+      <div class="container">
+        <div class="row" >
+          <div class="col-md-12 prod-list">
+            <div class="row"> 
+              <!-- items -->
+              <div class="slider-mob">
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item1.jpg"> </div>
+                  <div class="item-title">
+                    <div>Handmade Item with Incredibly Long Title</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item3.jpg"> </div>
+                  <div class="item-title">
+                    <div>Simply Handmade Item</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item2.jpg"> </div>
+                  <div class="item-title">
+                    <div>Simply Handmade Item</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item1.jpg"> </div>
+                  <div class="item-title">
+                    <div>Handmade Item with Incredibly Long Title</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item3.jpg"> </div>
+                  <div class="item-title">
+                    <div>Simply Handmade Item</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item1.jpg"> </div>
+                  <div class="item-title">
+                    <div>Handmade Item with Incredibly Long Title</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item2.jpg"> </div>
+                  <div class="item-title">
+                    <div>Simply Handmade Item</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+                <div class="col-md-4 item">
+                  <div class="item-img"> <img src="images/item3.jpg"> </div>
+                  <div class="item-title">
+                    <div>Simply Handmade Item</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-price"> $14 </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 item-count hide-mob">
+                      <input type="button" value="-" class="qtyminus" field="quantity" />
+                      <input type="text" name="quantity" value="0" class="qty" />
+                      <input type="button" value="+" class="qtyplus" field="quantity" />
+                    </div>
+                  </div>
+                  <div class="item-order hide-mob">
+                    <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end items -->
+              <div class="clean"></div>
+              <div class="order-panel  hide-desk">
+                <div class="col-md-6 item-count">
+                  <input type="button" value="-" class="qtyminus" field="quantity" />
+                  <input type="text" name="quantity" value="0" class="qty" />
+                  <input type="button" value="+" class="qtyplus" field="quantity" />
+                </div>
+                <div class="item-order">
+                  <button class="btn btn-success"> <img src="images/cart-w.png"> ADD TO CART</button>
+                </div>
+                <div class="clean"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section " id="section3">
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div  class="col-md-3 hide-mob">
+            <div class="soc-panel"> <a href=""><img src="images/ico-face-b.png"></a> <a href=""><img src="images/ico-google-b.png"></a> <a href=""><img src="images/ico-twe-b.png"></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+          <div  class="col-md-6">
+            <div class="logo hide-mob"> <a href="/"><img src="images/logo-text.png" /></a> </div>
+            <div class="bot-menu">
+              <ul>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACTS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div  class="col-md-3 hide-mob">
+            <div class="pay-panel"> <a href=""><img src="images/ico-paypal.png"></a> <a href=""><img src="images/ico-visa.png"></a> <a href=""><img src="images/ico-master.png"></a>
+              <div class="clean"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row bot-info hide-mob">
+          <div  class="col-md-2 col-md-offset-2"> <img src="images/ico-marker-w.png">
+            <div class="title">FIND US</div>
+            1234 Lincoln st.,<br>
+            Chicago, IL </div>
+          <div  class="col-md-4"> <img src="images/ico-call-w.png">
+            <div class="title">CALL</div>
+            +1-234-555-5555 <br>
+            +1-987-666-6666 </div>
+          <div  class="col-md-2"> <img src="images/ico-mail-w.png">
+            <div class="title">MAIL</div>
+            info@jointle.com </div>
+        </div>
+        <div class="copy"> © 2015. Jointle.com. All rihts reserved. </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<div class="modal hide-mob fade" id="sing-in" tabindex="-1" role="dialog" aria-labelledby="sing-inLabel">
+  <div class="modal-dialog modal-middle" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="sing-form">
+          <div class="block-title-home">SIGN IN</div>
+          <form>
+            <div  class="filds">
+              <label for="login"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" name="login" id="login" class="label-over" />
+            </div>
+            <div  class="filds">
+              <label for="password"><span class="glyphicon glyphicon-lock"></span> Password</label>
+              <input type="password" name="password" id="password" class="label-over" />
+            </div>
+            <button type="submit" class="btn btn-success">REGISTER</button>
+          </form>
+          <div class="row text">
+              <div class="col-md-6 text-left"><a href="">Forgot password?</a></div>
+              <div class="col-md-6 text-right">No account? <a href="">Register</a></div>
+          </div>
+          <div class="reg-social">
+             <a href="#" class="btn btn-primary">SIGN UP VIA FACEBOOK</a><br>
+             <a href="#" class="btn btn-danger">SIGN UP VIA GOOGLE+</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html ng-app="appStart">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Annie profile</title>
+</head>
+<body ng-controller="StartController as strt">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 header">
+            <div class="logo">
+                <img src="img/logo.jpg" width="100" height="42">
+            </div>
+            <div class="menu">
+                <img src="img/cart.png" width="15" height="14" class="img-rounded"/>
+                <img src="img/nav.png" width="32" height="17" class="img-rounded">
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+    </div>
+
+    <div class="content row">
+        <div class="user-face col-xs-12 col-sm-2 col-sm-push-0 col-sm-offset-1">
+            <img src="img/annie140.jpg" width="95" height="95" class="centred img-circle "/>
+
+            <div align="center"><b>Annie Mac</b></div>
+            <div class="info">
+                <b>Email:</b><br>
+                <span>annie_mac@mail.com</span><br>
+                <br>
+                <b>Shipping Adress:</b><br>
+                <span>2346 N Hancock St</span><br>
+                <span>Philadelphia, PA</span><br>
+                <span>USA, 19152</span><br>
+                <span>1 (213)453-9845</span><br>
+                <br>
+                <a href="#">Edit Profile</a>
+            </div>
+        </div>
+
+        <div class="user-activity col-xs-12 col-sm-9 col-sm-offset-0">
+            <h2>CAMPAIGNS</h2>
+
+            <div class="campaigns-filter">
+                <button class="btn btn-success" value="ACTIVE">ACTIVE</button>
+                <button class="btn btn-primary" value="COMPLEED">COMPLETED</button>
+            </div>
+            <div class="centred">
+                <label class="checkbox" style="margin-left: 10px;">
+                    <input type="checkbox"> SHOW ONLY SUCCESSFUL
+                </label>
+                <img src="img/soap180x165.jpg" width="180" height="165" style="float: none;"/>
+            </div>
+
+            <div class="indicators">
+                <span>some indicators will be here</span>
+            </div>
+
+            <h2>PRODUCTS</h2>
+
+            <div class="products-buttons">
+                <button class="btn btn-success" value="ORDERED">ORDERED</button>
+                <button class="btn btn-primary" value="SENT">SENT</button>
+                <button class="btn btn-primary" value="IN PRODUCTION">IN PRODUCTION</button>
+            </div>
+            <img src="img/item1.jpg" width="230" height="220" style="float: none;"/><br>
+            <table style="border: 1px;">
+                <caption>very cool table here</caption>
+                <tr>
+                    <th>11111</th>
+                </tr>
+                <tr>
+                    <td>3333</td>
+                    <td>44444</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-xs-12">
+            <ul class="footer-menu">
+                <li><a href="#"> ABOUT</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+            <p>(c)2015 Jointle.com. All rights reserved</p>
+        </div>
+
+    </div>
+</div>
+<hr/>
+
+<p style="font-size: 8px;">
+    Jointle is the platform for pre-sale campaigns for small producers (makers, crafters).
+
+    For the producer: we help to solve three biggest problems of what the demand is, reducing operation
+    costs and providing free (!) working capital;
+    For the consumer: unique items (that nobody else sells), best prices (direct proposition from makers),
+    community of people (those who support maker’s culture);
+    For the business buyer: know what people are buying and join the crowd, get direct proposition from
+    makers, discover new products and producers
+
+</p>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
