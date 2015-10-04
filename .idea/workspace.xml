@@ -2,157 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e51ec1a7-7c45-48f3-92c9-20a48ec5365a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/campaign-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cart-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_cart-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_home.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_producer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_product-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_product.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/d_register.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/draft.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/jslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/jslider.round.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_cart-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_home.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_producer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_product-list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_product.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/m_register.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/owl.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/customer-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-Black.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-ExtraBold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-SemiBold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Montserrat-UltraLight.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/PTSerif.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ProfilePhoto.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Stroke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/User Profile Desktop CTA.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/User Profile Desktop.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/User Profile Mobile.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/av.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cart-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cartbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-call-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-face-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-face.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-google-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-mail-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-marker-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-master.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-twe-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-twe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ico-visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/item3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jslider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/jslider.round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/marker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/prod-s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/prod.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/rate.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider-arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ProfilePhoto.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/User_Profile_2.0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/User_Profile_Mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/annie140.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/annie95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/av.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cart-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-call-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-face-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-face.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-google-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-mail-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-marker-w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-master.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-twe-b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-twe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ico-visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jslider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jslider.round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/marker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prod-s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/prod.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rate.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slider-arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/soap180x165.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/counter-item.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/draggable-0.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.11.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.dependClass-0.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.fullPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.fullPage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.numberformatter-1.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jshashtable-2.1_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/mobile-detect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/mobile-detect.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/owl.carousel_old.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/popbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/resolution.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/tmpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/katya-customer-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/register-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vetal-customer-page.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/procndate.js" afterPath="$PROJECT_DIR$/js/procndate.js" />
     </list>
     <ignored path="chasopys.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -173,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.185185">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.52380955">
+              <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="procndate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="procndate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/procndate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3883495">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -202,8 +53,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/indexhtml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/procndate.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -319,7 +170,7 @@
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,18 +205,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/procndate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.185185">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/procndate.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3883495">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.52380955">
+          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
           <folding />
         </state>
       </provider>

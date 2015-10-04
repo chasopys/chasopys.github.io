@@ -20,6 +20,10 @@ function calcMatrix(){
     var i;
     for (i=0;i<txts.length;i++) {
         console.log( extractgv(txts[i], itkeys));
+        cm[i].skills=extractgv(txts[i], itkeys);
+        console.log('ptrnkeys in calc'+ptrnkeys);
+        console.log('skills in calc'+cm[i].skills);
+        cm[i].matched=compareArrays(ptrnkeys, cm[i].skills);
         //cm[i].matched=extractgv(ptrnkeys, extractgv(txts[i], itkeys));
         cm[i].corr=matchgv(ptrnkeys, extractgv(txts[i], itkeys))
     }
@@ -51,3 +55,13 @@ function extractgv(txt, v) {
     return keywords;
 }
 
+function compareArrays(r, v) {
+    var keywords=[];
+    var lv = v.length;
+    for (i = 0; i < lv; i++){
+        if (r.indexOf(v[i])>-1){
+            keywords.push(v[i]);
+        }
+    }
+    return keywords;
+}

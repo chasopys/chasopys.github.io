@@ -61,20 +61,23 @@
                             calcMatrix();
                             console.log(cm);
                             printTable()
-
                         }
                     };
                     reader.readAsText(f);
                 }
                 function printTable(){
-                    var ctable='';
-                    document.getElementById('list').innerHTML = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efilename\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n \x3Ctr\x3E\n \x3Ctd\x3Eishenko maks\x3C\x2Ftd\x3E\n \x3Ctd\x3E100%\x3C\x2Ftd\x3E\n \x3Ctd\x3Epython\x3C\x2Ftd\x3E\n \x3Ctd\x3Edou.ua\x3C\x2Ftd\x3E\n \x3C\x2Ftr\x3E" ;
-                    for (i=0;i<cm.length;i++){
-                        cm+='<td>'+files[i].name+'td';
-                        cm+='<td>'+cm[i].corr+'</td>';
-                        cm+="</tr>";
+                    ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efile\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n \x3Ctr\x3E\n \x3Ctd\x3Eishenko maks\x3C\x2Ftd\x3E\n \x3Ctd\x3E100%\x3C\x2Ftd\x3E\n \x3Ctd\x3Epython\x3C\x2Ftd\x3E\n \x3Ctd\x3Edou.ua\x3C\x2Ftd\x3E\n \x3C\x2Ftr\x3E" ;
+                    var cml=cm.length;
+                    for (i=0;i<cml;i++){
+                        ctable+="<tr>";
+                        ctable+='<td>'+cm[i].file+'</td>';
+                        ctable+='<td>'+cm[i].corr*100+"%"+'</td>';
+                        ctable+='<td>'+cm[i].matched+ '</td>';
+                        ctable+='<td>'+ 'n/a'+'</td>';
+                        ctable+="</tr>";
                     }
-                    document.getElementById('list').innerHTML+=cm;
+                    ctable+='</table>'
+                    document.getElementById('list').innerHTML=ctable;
 
                 }
             };
