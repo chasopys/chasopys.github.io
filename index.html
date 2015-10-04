@@ -19,7 +19,7 @@
         <h1>We connect lonely IT-hearts</h1>
 
         <p>Just put your vacancy and choose gotten resumes</p>
-        <textarea rows="4" cols="75">
+        <textarea id="vacancy" rows="4" cols="75">
   Web-developer
             2 + years of experience as a WEB, css3, html5, bootstrap,sql,mysql developer;
 · Mast have:
@@ -40,6 +40,10 @@
             function filesSelected(files) {
                 var file = files[0], reader, contents;
                 txts = [];
+                console.log('textarea? '+document.getElementById('vacancy').value );
+                ptrn=document.getElementById('vacancy').value;
+                cm=[];
+                document.getElementById('list').innerHTML='';
                 //
                 //var files = this.files; // FileList object
                 for (var i = 0, f; f = files[i]; i++) {
@@ -66,7 +70,7 @@
                     reader.readAsText(f);
                 }
                 function printTable(){
-                    ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efile\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n \x3Ctr\x3E\n \x3Ctd\x3Eishenko maks\x3C\x2Ftd\x3E\n \x3Ctd\x3E100%\x3C\x2Ftd\x3E\n \x3Ctd\x3Epython\x3C\x2Ftd\x3E\n \x3Ctd\x3Edou.ua\x3C\x2Ftd\x3E\n \x3C\x2Ftr\x3E" ;
+                    ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efilename\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n";
                     var cml=cm.length;
                     for (i=0;i<cml;i++){
                         ctable+="<tr>";
