@@ -12,7 +12,7 @@ var txts=["java programming experience and SQL css experience a must; experience
 function calcMatrix(){
     var itkeys=['java', 'sql', 'css','mysql', 'node', 'aspnet', 'ember', 'mybatis', 'javascript',
         'photoshop', 'english', 'swing', 'orm', 'backbone', 'angular',
-    'oop','patterns','c++','dotnet','html',
+    'oop','patterns','c++','grunt','dotnet','html',
     'android','xml','sqlite','junit','jira','powerpoint','bootstrap','wordpress','jquery','html5','css3','flask','django','mongo', 'redis',
     'git','gulp', 'maven'];
     var ptrnkeys=extractgv(ptrn, itkeys);
