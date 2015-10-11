@@ -7,34 +7,44 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-    <!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
-    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+<header id="page-header" class="row">
+        <p class="small-10 small-centered small-offset-1">Just put your vacancy and choose gotten resumes</p>
+</header>
 
-<div class="container">
-    <!-- Main hero unit for a primary marketing message or call to action -->
-    <div class="hero-unit">
-        <h1>We connect lonely IT-hearts</h1>
-
-        <p>Just put your vacancy and choose gotten resumes</p>
-        <textarea id="vacancy" rows="4" cols="75">
-  Web-developer
-            2 + years of experience as a WEB, css3, html5, bootstrap,sql,mysql developer;
-· Mast have:
-— strong knowledge of WEB technologies, JavaScript
-— software development experience for commercial project (JS);
-— base knowledge of git,Java SE and Java EE;
+<section>
+    <div class="row">
+           <textarea id="vacancy" rows="4" class="small-10 column small-centered">
+Web-developer
+2 + years of experience as a WEB, css3, html5, bootstrap,sql,mysql developer;
+Mast have:
+strong knowledge of WEB technologies, JavaScript
+software development experience for commercial project (JS);
+base knowledge of git,Java SE and Java EE;
 · Development experience SPA (Single Page Application) is a priority;
 · As a plus: experience of working with frameworks Sencha Ext.js, GWT; Spring, Spring MVC;
 · English intermediate level;
 · Result- and team-oriented, responsible, self-starter.
         </textarea>
+    </div>
+    <div class="row">
+        <!--<button class="file-upload">-->
+             <!--<input  class="file-input" type="file" id="files" name="files[]" multiple-->
+                     <!--onchange="filesSelected(this.files)"/>-->
+            <!--Choose File-->
+        <!--</button>-->
+        <input type="file" id="files" name="files[]" multiple
+               onchange="filesSelected(this.files)" class="small-4 column"/>
+    </div>
+</section>
+
         <!--<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
-        <input type="file" id="files" name="files[]" multiple onchange="filesSelected(this.files)"/>
-        <output id="list"></output>
+        <!--<output id="list"></output>-->
 
         <script src="js/procndate.js"></script>
         <script>
@@ -42,17 +52,17 @@
             function filesSelected(files) {
                 var file = files[0], reader, contents;
                 txts = [];
-                console.log('textarea? '+document.getElementById('vacancy').value );
-                ptrn=document.getElementById('vacancy').value;
-                cm=[];
-                document.getElementById('list').innerHTML='';
+                console.log('textarea? ' + document.getElementById('vacancy').value);
+                ptrn = document.getElementById('vacancy').value;
+                cm = [];
+                document.getElementById('list').innerHTML = '';
                 //
                 //var files = this.files; // FileList object
                 for (var i = 0, f; f = files[i]; i++) {
 
                     console.log(f.name);
-                    cm[i]=new Object();
-                    cm[i].file= f.name;
+                    cm[i] = new Object();
+                    cm[i].file = f.name;
                     //alert(f.name);
                     reader = new FileReader();
                     reader.onload = function (e) {
@@ -61,7 +71,7 @@
                         contents = e.target.result;
                         //console.log("Содержимое файла: " + contents);
                         txts.push(contents);
-                        cm[i].cv=contents;
+                        cm[i].cv = contents;
                         //console.log('i= '+i);
                         if (i === 0) {
                             calcMatrix();
@@ -71,41 +81,42 @@
                     };
                     reader.readAsText(f);
                 }
-                function printTable(){
+                function printTable() {
                     ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efilename\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n";
-                    var cml=cm.length;
-                    for (i=0;i<cml;i++){
-                        ctable+="<tr>";
-                        ctable+='<td>'+cm[i].file+'</td>';
-                        ctable+='<td>'+cm[i].corr*100+"%"+'</td>';
-                        ctable+='<td>'+cm[i].matched+ '</td>';
-                        ctable+='<td>'+ 'n/a'+'</td>';
-                        ctable+="</tr>";
+                    var cml = cm.length;
+                    for (i = 0; i < cml; i++) {
+                        ctable += "<tr>";
+                        ctable += '<td>' + cm[i].file + '</td>';
+                        ctable += '<td>' + cm[i].corr * 100 + "%" + '</td>';
+                        ctable += '<td>' + cm[i].matched + '</td>';
+                        ctable += '<td>' + 'n/a' + '</td>';
+                        ctable += "</tr>";
                     }
-                    ctable+='</table>'
-                    document.getElementById('list').innerHTML=ctable;
+                    ctable += '</table>'
+                    document.getElementById('list').innerHTML = ctable;
 
                 }
-            };
+            }
+            ;
 
         </script>
-    </div>
+
     <div class="row">
-        <output id="list">
+        <output id="list" class="small-12 small-centered">
             <!--<table border="1">-->
-                <!--<caption>Career matrix</caption>-->
-                <!--<tr>-->
-                    <!--<th>filename</th>-->
-                    <!--<th>correspondence index</th>-->
-                    <!--<th>matched skills</th>-->
-                    <!--<th>link to full resume</th>-->
-                <!--</tr>-->
-                <!--<tr>-->
-                    <!--<td>ishenko maks</td>-->
-                    <!--<td>101%</td>-->
-                    <!--<td>python</td>-->
-                    <!--<td>dou.ua</td>-->
-                <!--</tr>-->
+            <!--<caption>Career matrix</caption>-->
+            <!--<tr>-->
+            <!--<th>filename</th>-->
+            <!--<th>correspondence index</th>-->
+            <!--<th>matched skills</th>-->
+            <!--<th>link to full resume</th>-->
+            <!--</tr>-->
+            <!--<tr>-->
+            <!--<td>ishenko maks</td>-->
+            <!--<td>101%</td>-->
+            <!--<td>python</td>-->
+            <!--<td>dou.ua</td>-->
+            <!--</tr>-->
             <!--</table>-->
 
         </output>
@@ -115,9 +126,6 @@
     <footer>
         <p>&copy; IT-dating 2015</p>
     </footer>
-
-</div>
-<!-- /container -->
 
 </body>
 </html>
