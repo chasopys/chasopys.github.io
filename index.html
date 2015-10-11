@@ -14,7 +14,7 @@
 
 <body>
 <header id="page-header" class="row">
-        <p class="small-10 small-centered small-offset-1">Just put your vacancy and choose gotten resumes</p>
+    <p class="small-10 small-centered small-offset-1">Just put your vacancy and choose gotten resumes</p>
 </header>
 
 <section>
@@ -34,98 +34,100 @@ base knowledge of git,Java SE and Java EE;
     </div>
     <div class="row">
         <!--<button class="file-upload">-->
-             <!--<input  class="file-input" type="file" id="files" name="files[]" multiple-->
-                     <!--onchange="filesSelected(this.files)"/>-->
-            <!--Choose File-->
+        <!--<input  class="file-input" type="file" id="files" name="files[]" multiple-->
+        <!--onchange="filesSelected(this.files)"/>-->
+        <!--Choose File-->
         <!--</button>-->
-        <input type="file" id="files" name="files[]" multiple
-               onchange="filesSelected(this.files)" class="small-4 column"/>
+        <div class="small-10 small-centered column end">
+            <input type="file" id="files" name="files[]" multiple
+                   onchange="filesSelected(this.files)" />
+        </div>
+
     </div>
 </section>
-
-        <!--<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
-        <!--<output id="list"></output>-->
-
-        <script src="js/procndate.js"></script>
-        <script>
-            //new comment
-            function filesSelected(files) {
-                var file = files[0], reader, contents;
-                txts = [];
-                console.log('textarea? ' + document.getElementById('vacancy').value);
-                ptrn = document.getElementById('vacancy').value;
-                cm = [];
-                document.getElementById('list').innerHTML = '';
-                //
-                //var files = this.files; // FileList object
-                for (var i = 0, f; f = files[i]; i++) {
-
-                    console.log(f.name);
-                    cm[i] = new Object();
-                    cm[i].file = f.name;
-                    //alert(f.name);
-                    reader = new FileReader();
-                    reader.onload = function (e) {
-                        i--;
-                        //console.log('inside onreader ' + e);
-                        contents = e.target.result;
-                        //console.log("Содержимое файла: " + contents);
-                        txts.push(contents);
-                        cm[i].cv = contents;
-                        //console.log('i= '+i);
-                        if (i === 0) {
-                            calcMatrix();
-                            console.log(cm);
-                            printTable()
-                        }
-                    };
-                    reader.readAsText(f);
-                }
-                function printTable() {
-                    ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efilename\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n";
-                    var cml = cm.length;
-                    for (i = 0; i < cml; i++) {
-                        ctable += "<tr>";
-                        ctable += '<td>' + cm[i].file + '</td>';
-                        ctable += '<td>' + cm[i].corr * 100 + "%" + '</td>';
-                        ctable += '<td>' + cm[i].matched + '</td>';
-                        ctable += '<td>' + 'n/a' + '</td>';
-                        ctable += "</tr>";
-                    }
-                    ctable += '</table>'
-                    document.getElementById('list').innerHTML = ctable;
-
-                }
-            }
-            ;
-
-        </script>
-
-    <div class="row">
-        <output id="list" class="small-12 small-centered">
-            <!--<table border="1">-->
-            <!--<caption>Career matrix</caption>-->
-            <!--<tr>-->
-            <!--<th>filename</th>-->
-            <!--<th>correspondence index</th>-->
-            <!--<th>matched skills</th>-->
-            <!--<th>link to full resume</th>-->
-            <!--</tr>-->
-            <!--<tr>-->
-            <!--<td>ishenko maks</td>-->
-            <!--<td>101%</td>-->
-            <!--<td>python</td>-->
-            <!--<td>dou.ua</td>-->
-            <!--</tr>-->
-            <!--</table>-->
-
+<div class="row">
+    <div class="small-10 small-centered small-offset-1 column">
+        <output id="list" class="">
         </output>
-
     </div>
+</div>
 
-    <footer>
-        <p>&copy; IT-dating 2015</p>
-    </footer>
+<footer>
+    <p>&copy; IT-dating 2015</p>
+</footer>
 
+<!--<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
+<!--<output id="list"></output>-->
+
+<script src="js/procndate.js"></script>
+<script>
+    printTable();
+
+    function printTable() {
+        ctable = " \x3Ctable border=\"1\"\x3E\n \x3Ccaption\x3ECareer matrix\x3C\x2Fcaption\x3E\n \x3Ctr\x3E\n \x3Cth\x3Efilename\x3C\x2Fth\x3E\n \x3Cth\x3Ecorrespondence index\x3C\x2Fth\x3E\n \x3Cth\x3Ematched skills\x3C\x2Fth\x3E\n \x3Cth\x3Elink to full resume\x3C\x2Fth\x3E\n \x3C\x2Ftr\x3E\n";
+        var cml = cm.length;
+        for (i = 0; i < cml; i++) {
+            ctable += "<tr>";
+            ctable += '<td>' + cm[i].file + '</td>';
+            ctable += '<td>' + cm[i].corr * 100 + "%" + '</td>';
+            ctable += '<td>' + cm[i].matched + '</td>';
+            ctable += '<td>' + 'n/a' + '</td>';
+            ctable += "</tr>";
+        }
+        ctable += '</table>'
+        document.getElementById('list').innerHTML = ctable;
+    }
+
+    function filesSelected(files) {
+        var file = files[0], reader, contents;
+        txts = [];
+        console.log('textarea? ' + document.getElementById('vacancy').value);
+        ptrn = document.getElementById('vacancy').value;
+        cm = [];
+        document.getElementById('list').innerHTML = '';
+        //
+        //var files = this.files; // FileList object
+        for (var i = 0, f; f = files[i]; i++) {
+
+            console.log(f.name);
+            cm[i] = new Object();
+            cm[i].file = f.name;
+            //alert(f.name);
+            reader = new FileReader();
+            reader.onload = function (e) {
+                i--;
+                //console.log('inside onreader ' + e);
+                contents = e.target.result;
+                //console.log("Содержимое файла: " + contents);
+                txts.push(contents);
+                cm[i].cv = contents;
+                //console.log('i= '+i);
+                if (i === 0) {
+                    calcMatrix();
+                    console.log(cm);
+                    printTable()
+                }
+            };
+            reader.readAsText(f);
+        }
+    }
+    ;
+</script>
 </body>
 </html>
+
+<!--<table border="1">-->
+<!--<caption>Career matrix</caption>-->
+<!--<tr>-->
+<!--<th>filename</th>-->
+<!--<th>correspondence index</th>-->
+<!--<th>matched skills</th>-->
+<!--<th>link to full resume</th>-->
+<!--</tr>-->
+<!--<tr>-->
+<!--<td>ishenko maks</td>-->
+<!--<td>101%</td>-->
+<!--<td>python</td>-->
+<!--<td>dou.ua</td>-->
+<!--</tr>-->
+<!--</table>-->
