@@ -47,7 +47,7 @@ function extractgv(txt, v) {
     var keywords=[];
     var lv = v.length;
     var r = txt.toLowerCase().split(/[;.: ,]/);
-    for (i = 0; i < lv; i++){
+    for (var i = 0; i < lv; i++){
         if (r.indexOf(v[i])>-1){
             keywords.push(v[i]);
         }
@@ -58,7 +58,7 @@ function extractgv(txt, v) {
 function compareArrays(r, v) {
     var keywords=[];
     var lv = v.length;
-    for (i = 0; i < lv; i++){
+    for (var i = 0; i < lv; i++){
         if (r.indexOf(v[i])>-1){
             keywords.push(v[i]);
         }
